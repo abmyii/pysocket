@@ -1,0 +1,11 @@
+The example is a simple chat program where the client sends data to the server
+and the server prints the data & the client addr.
+
+To run
+------
+python server.py (in one console)
+python client.py (in another)
+
+client.py will ask you for the server IP (localhost works too). After you have entered it, you can
+start writing text. When you press ENTER it sends the data to the server. If
+you look on the server console, you will see some data printed out.

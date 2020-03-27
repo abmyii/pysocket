@@ -1,0 +1,146 @@
+pysocket 1.0.0 (2015-06-21)
+===========================
+The first major release! Here's the changes:
+
+    * Lots of changes
+    * Bugfixes (one took me a month to fix!)
+    * Examples
+
+
+pysocket 0.9.0 (2015-04-18)
+===========================
+Here's the list of changes in v0.9.0:
+
+    * More documentation
+    * Made pysocket totally asynchronous
+
+
+pysocket 0.8.0 (2015-04-17)
+===========================
+Version 0.8 includes (sparse) documentation and small changes. Here's the list:
+
+    * Completed some of the documentation
+    * Some changes to the code
+    * Addtions to the code
+
+
+pysocket 0.7.0 (2015-03-31)
+===========================
+Pre-release for version 0.8. Mostly documentation work. Here's what's new:
+
+    * Started on the documentation
+    * Rewrote the README
+    * Some additions to the server class
+
+
+pysocket 0.6.0 (2015-03-30)
+===========================
+This release includes:
+
+    * Server base class
+    * Client base class
+    * Small improvments
+
+
+pysocket 0.5.0 (2015-03-27)
+===========================
+Major release, because of py3k compatiblity and improvments generally. Here's the changes:
+
+    * Full py3k support
+    * A few improvments
+    * Bugfixes
+
+
+pysocket 0.4.0 (2015-03-27)
+===========================
+Pre-release for version 0.5. Here's whats new for now:
+
+    * Some py3k support
+    * Improvments
+    * Made close function not connected to the unbind function
+    * Just pre-release stuff
+
+
+pysocket 0.3.5 (2015-03-25)
+===========================
+Here's the changes in this version:
+    
+    * Completed tests
+    * More bugfixes
+    * Improvments
+
+
+pysocket 0.3.0 (2015-03-25)
+===========================
+The first stable! Here's the changes:
+
+    * More tests
+    * Bugfixes
+    * New way of releasing
+
+
+pysocket 0.2.5 (2015-03-24)
+===========================
+More tests and bugfixes in this version also. Here's all of them:
+
+    * More test
+    * A few bugfixes
+    * Fixed recv function which wasn't working
+    * Fixed mistakes
+
+
+pysocket 0.2.3 (2015-03-22)
+===========================
+This version includes more tests and some bugfixes. Here's the list of changes:
+
+    * More tests
+    * Bugfixes
+    * Fixed mistakes
+    * Removed obsolete functions
+
+
+pysocket 0.2.0 (2015-03-22)
+===========================
+I've started writing tests and found LOTS of bugs and problems. Here's the changes:
+
+    * A few tests
+    * LOTS of bugfixes
+    * LOTS of improvements
+
+
+pysocket 0.1.5 (2015-03-21)
+===========================
+After this release, testing will start. Here's what's changed:
+
+    * All of the send functions for the socket
+    * All of the socket functions except for socket.shutdown, which is replaced by socket.unbind
+    * Cleared up some code
+    * Fixed typos
+
+
+pysocket 0.1.0 (2015-03-19)
+===========================
+This release adds more functions to pysocket. Here's what's new:
+
+    * All of the recv functions for the socket
+    * A send function which is a better version of the socket.send
+
+
+pysocket 0.0.7 (2015-03-16)
+===========================
+Here's what's new in v0.0.7:
+
+    * More functions in the socket class
+    * Code is now formated
+    * Better exception handling
+
+
+pysocket 0.0.3 (2015-03-12)
+===========================
+This is the first release of pysocket, which is currently in version 0.0.3. Here's what is currently implemented:
+
+    * A socket class (replaces socket.socket), in which currently implemented is:
+        * Most of the socket.socket functions
+        * Some additional functions (most are to control how the socket works)
+        * Better error messages for some socket errors
+        * Socket doesn't raise error on timeout
